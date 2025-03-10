@@ -9,6 +9,8 @@ from sklearn.preprocessing import StandardScaler
 import time
 import pmdarima as pm
 
+
+
 # **Fetch S&P 500 Tickers from Wikipedia**
 @st.cache_data
 def fetch_sp500_tickers():
